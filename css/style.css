@@ -56,7 +56,16 @@ nav li {
 nav a {
     text-decoration: none;
     color: inherit;
+    padding: 14px 16px;
 }
+
+nav ul li a:hover {
+    background-color: #21b821; /* Change to your desired hover color */
+  }
+
+  nav ul li a.active {
+    background-color: #21b821; /* Choose your desired color */
+  }
 
 .title {
     display: flex;
@@ -108,7 +117,12 @@ nav a {
     width: 100%; /* Make sure images scale within the column */
     max-width: 200px;
     height: auto;
+    transition: transform 0.3s ease;
 }
+
+.photos img:hover {
+    transform: scale(1.2); /* Increase the size by 20% */
+  }
 
 /* Flexbox to center the grid in the column */
 .grid-container {
