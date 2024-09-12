@@ -7,6 +7,17 @@ body {
     margin: 5px;
 }
 
+h1, h2 {
+    font-family: 'Cinzel Decorative';
+    text-align: center;
+    font-size: 60px;
+}
+
+p {
+    font-size: 24px;
+    
+}
+
 header {
     margin: 0;
     padding: 0;
@@ -53,7 +64,7 @@ nav a {
     align-items: center;
     position: relative;
     height: 60px;
-    font-family: 'Cinzel Decorative';
+    
     padding: 20px;
     
     
@@ -62,7 +73,7 @@ nav a {
 .title h1 {
     flex-grow: 1; 
     text-align: center; 
-    font-size: 50px;
+    
     text-shadow: 0 0 9px;
 }
 
@@ -73,3 +84,47 @@ nav a {
     transform: translateY(-50%); 
     width: 60px;
 }
+
+.content {
+    display: flex; /* Flexbox layout */
+    justify-content: space-between; /* Creates space between columns */
+    gap: 20px; /* Adds space between the columns */
+    padding: 20px; /* Adds padding around the section */
+    background-color: #54D454;
+    margin-top: 10px;
+}
+
+.welcome {
+    flex-basis: 66.66%; /* 2/3 width */
+    background-color: #29e929;
+    padding: 10px;
+}
+
+.photos {
+    flex-basis: 33.33%; /* 1/3 width */
+    background-color: #29e929;
+    padding: 10px;
+}
+
+.photos img {
+    width: 100%; /* Make sure images scale within the column */
+    max-width: 200px;
+    height: auto;
+}
+
+/* Flexbox to center the grid in the column */
+.grid-container {
+    display: flex;
+    justify-content: center; /* Horizontally center */
+  }
+  
+  /* CSS Grid for 2x2 image layout */
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    grid-template-rows: repeat(2, 1fr); /* 2 rows */
+    
+  }
+  
+  
+  
