@@ -7,15 +7,14 @@ body {
     margin: 5px;
 }
 
-h1, h2 {
+h1, h2, .welcome-text {
     font-family: 'Cinzel Decorative';
     text-align: center;
     font-size: 60px;
 }
 
 p {
-    font-size: 24px;
-    
+    font-size: 24px;  
 }
 
 header {
@@ -64,10 +63,7 @@ nav a {
     align-items: center;
     position: relative;
     height: 60px;
-    
-    padding: 20px;
-    
-    
+    padding: 40px;
 }
 
 .title h1 {
@@ -82,7 +78,7 @@ nav a {
     right: 10px; 
     top: 50%; 
     transform: translateY(-50%); 
-    width: 60px;
+    width: 80px;
 }
 
 .content {
@@ -124,6 +120,12 @@ nav a {
     grid-template-columns: repeat(2, 1fr); /* 2 columns */
     grid-template-rows: repeat(2, 1fr); /* 2 rows */
     
+  }
+
+  footer {
+    background-color: #54D454;
+    padding: 10px;
+    margin-top: 10px;
   }
   
   
