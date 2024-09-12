@@ -21,6 +21,7 @@ header {
     margin: 0;
     padding: 0;
     background-color: #54D454;
+    min-width: 800px;
 }
 
 nav {
@@ -88,6 +89,7 @@ nav a {
     padding: 20px; /* Adds padding around the section */
     background-color: #54D454;
     margin-top: 10px;
+    min-width: 800px;
 }
 
 .welcome {
@@ -126,7 +128,10 @@ nav a {
     background-color: #54D454;
     padding: 10px;
     margin-top: 10px;
+    min-width: 800px;
   }
   
-  
+  .container {
+    margin: 0 180px 0 180px;
+  }
   
