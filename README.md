@@ -1,24 +1,15 @@
-# Web Dev Starter Code
+# Birdwatching CSS
 
 ## Overview
 
-TODO: Write a project description
+This project uses css formating to stylize a web page using various formatting methods.
+
+## Running
+
+Clone this git hub repository in VSCode, download the live preview extension, then open index.html with live preview or prefered browser.
 
 ## Sources and Credits
 
-TODO: You must credit the sources and authors of any code, libraries, or other
-assets you use in your project. If you leave this section blank, your project
-will be considered in violation of the Academic Honesty policy unless you truly
-created everything from scratch with no outside help. If you need to use a
-source that you cannot credit (e.g. a classmate's work), you must get explicit
-permission from your instructor.
+- CSS: https://www.w3schools.com/css/css3_multiple_columns.asp, https://www.w3schools.com/css/css3_flexbox.asp, https://www.w3schools.com/css/css_align.asp
 
-A simple bulleted list below is sufficient. For example:
 
-- Bootstrap: https://getbootstrap.com/
-- jQuery: https://jquery.com/
-- Background image: https://unsplash.com/photos/...
-- Sound effects: https://freesound.org/people/...
-- Icons: https://fontawesome.com/
-- Fonts: https://fonts.google.com/
-- etc.
